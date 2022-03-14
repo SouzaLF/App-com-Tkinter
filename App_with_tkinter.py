@@ -20,7 +20,7 @@ att_data = today + datetime.timedelta(days = 1)
 data3 = att_data.strftime('%d/%m/%Y')
 
 #Ambiente
-chave = 'cheva planilha google nuvem'
+chave = 'chave planilha google nuvem'
 gc = gspread.service_account(filename='arquivo json')
 
 ########################FUNÇÕES###############################
