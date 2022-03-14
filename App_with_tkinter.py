@@ -21,7 +21,7 @@ data3 = att_data.strftime('%d/%m/%Y')
 
 #Ambiente
 chave = 'chave planilha google nuvem'
-gc = gspread.service_account(filename='arquivo json')
+gc = gspread.service_account(filename='token.json')
 
 ########################FUNÇÕES###############################
 def cadastro_investimento():
